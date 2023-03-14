@@ -1,10 +1,14 @@
 import React, { useCallback } from 'react';
+import { useDispatch } from 'react-redux';
+import { changeCount } from '../../../../../store/counterSlice';
 import styles from './CounterBtn.module.scss';
 
-export default function CounterBtn({text, handler, value}) {
+export default function CounterBtn({text, value}) {
+    const dispatch = useDispatch();
+
     const onBtnClick = useCallback(()=>{
-        handler(value);   
-    }, [handler, value])
+        dispatch(changeCount({value}))
+    }, [dispatch, value])
 
     return (
         <button

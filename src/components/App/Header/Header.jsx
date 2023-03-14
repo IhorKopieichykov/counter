@@ -10,7 +10,7 @@ export default function Header() {
                 <div className="logo_image">
                     <img src={logo} alt="logo" />                    
                 </div>
-                <div className="header__title">UseEffect Hook</div>
+                <div className="header__title">Simple Counter</div>
                 <Window />
             </div>
         </header>
