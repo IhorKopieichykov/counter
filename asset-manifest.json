@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "//ihorkopieichykov.github.io/counter/static/css/main.c52d88fa.css",
+    "main.js": "//ihorkopieichykov.github.io/counter/static/js/main.e1244643.js",
+    "index.html": "//ihorkopieichykov.github.io/counter/index.html",
+    "main.c52d88fa.css.map": "//ihorkopieichykov.github.io/counter/static/css/main.c52d88fa.css.map",
+    "main.e1244643.js.map": "//ihorkopieichykov.github.io/counter/static/js/main.e1244643.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c52d88fa.css",
+    "static/js/main.e1244643.js"
+  ]
+}
